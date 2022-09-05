@@ -16,7 +16,7 @@ export default function CardRealisation({
           <h2 className="titleProject">{title} </h2>
           <a
             className="linkSite"
-            href={linkSite}
+            href={`${linkSite}`}
             target="_blank"
             rel="noreferrer"
           >
@@ -25,7 +25,7 @@ export default function CardRealisation({
           <p className="contentProject">{content}</p>
           <a
             className="linkGithub"
-            href={linkGithub}
+            href={`${linkGithub}`}
             target="_blank"
             rel="noreferrer"
           >

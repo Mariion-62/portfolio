@@ -9,6 +9,8 @@ const SGlobal = createGlobalStyle`
 --color-pink: #ff64b4;
 --background-color: #1C2833;
 --color-white: #f0f0e4;
+font-family: 'Exo', sans-serif;
+
 }
 body {
     background-color: var(--background-color);

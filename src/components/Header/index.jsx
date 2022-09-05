@@ -1,4 +1,5 @@
 // import { IoLogoGithub } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 import SHeader from './style';
 import Logo from './logo.png';
 import iconMenuBurger from './burgerMenu.png';
@@ -9,9 +10,9 @@ export default function Header() {
   return (
     <SHeader>
       <div className="header">
-        <a href="http://localhost:3001/">
+        <Link id="header" to="/">
           <img className="logoHeader" src={Logo} alt="Logo" />
-        </a>
+        </Link>
         <div className="right">
           <div className="iconSocials">
             <a
