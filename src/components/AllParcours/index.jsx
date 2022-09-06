@@ -3,8 +3,6 @@ import axios from 'axios';
 import CardParcours from 'components/CardParcours';
 import { useEffect, useState } from 'react';
 
-import Header from 'components/Header';
-import Description from 'components/Description';
 import { SAllParcours, STitleParcours } from './style';
 
 export default function AllParcours() {
@@ -21,8 +19,6 @@ export default function AllParcours() {
   }, []);
   return (
     <>
-      <Header />
-      <Description />
       <STitleParcours>
         <h2 className="titleExpPro">Expériences professionnelles</h2>
       </STitleParcours>
