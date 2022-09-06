@@ -15,6 +15,7 @@ const STitleParcours = styled.div`
     text-align: center;
     font-size: 2em;
     padding: 0 0 15vh 0;
+    font-weight: bolder;
   }
 `;
 
