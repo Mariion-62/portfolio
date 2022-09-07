@@ -28,6 +28,11 @@ export default function Realisations() {
               title={cardRealisation.title}
               picture={cardRealisation.picture}
               content={cardRealisation.content}
+              linkGithub={cardRealisation.linkGithub}
+              linkSite={cardRealisation.linkSite}
+              group={cardRealisation.group}
+              time={cardRealisation.time}
+              problematique={cardRealisation.problematique}
             />
           );
         })}

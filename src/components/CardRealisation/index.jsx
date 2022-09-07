@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { IoLogoGithub } from 'react-icons/io5';
+import { IoLogoGithub, IoPeopleSharp, IoTimeSharp } from 'react-icons/io5';
 import SCardRealisation from './style';
 
 export default function CardRealisation({
@@ -8,24 +8,44 @@ export default function CardRealisation({
   content,
   linkGithub,
   linkSite,
+  group,
+  time,
+  problematique,
 }) {
   return (
     <>
       <SCardRealisation>
         <div className="allCard">
           <h2 className="titleProject">{title} </h2>
+          <div className="groupTime">
+            <div className="groupProject">
+              <p>
+                <IoPeopleSharp size={25} />
+              </p>
+              <p className="contentGroup">: {group}</p>
+            </div>
+            <div className="timeProject">
+              <p>
+                <IoTimeSharp size={25} />
+              </p>
+              <p className="contentTime"> : {time}</p>
+            </div>
+          </div>
           <a
             className="linkSite"
-            href={`${linkSite}`}
+            href={linkSite}
             target="_blank"
             rel="noreferrer"
           >
             <img className="imgProject" src={picture} alt={title} />
           </a>
+          <p className="problematiqueProject">
+            Problématique : {problematique}
+          </p>
           <p className="contentProject">{content}</p>
           <a
             className="linkGithub"
-            href={`${linkGithub}`}
+            href={linkGithub}
             target="_blank"
             rel="noreferrer"
           >
@@ -43,4 +63,7 @@ CardRealisation.propTypes = {
   content: PropTypes.string.isRequired,
   linkGithub: PropTypes.string.isRequired,
   linkSite: PropTypes.string.isRequired,
+  group: PropTypes.string.isRequired,
+  time: PropTypes.string.isRequired,
+  problematique: PropTypes.string.isRequired,
 };

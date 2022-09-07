@@ -5,15 +5,28 @@ const SCardRealisation = styled.div`
     display: flex;
     flex-direction: column;
     width: 40vw;
-    height: 50vh;
+    height: 80vh;
     justify-content: center;
     align-items: center;
-    margin: 10vh 4vw 15vh 4vw;
+    margin: 10vh 4vw 5vh 4vw;
   }
+
   .titleProject {
     color: var(--color-violet);
     font-size: 2em;
     padding: 1em;
+    font-weight: bolder;
+  }
+  .groupTime,
+  .groupProject,
+  .timeProject {
+    display: flex;
+    text-align: center;
+  }
+
+  .contentGroup,
+  .contentTime {
+    padding: 0.5vh 1vw 0 0.3vw;
   }
   .imgProject {
     object-fit: contain;
@@ -23,7 +36,14 @@ const SCardRealisation = styled.div`
   .contentProject {
     color: var(--color-white);
     text-align: justify;
-    padding: 5vh 2vw;
+    padding: 0vh 2vw;
+    height: 30vh;
+  }
+  .problematiqueProject {
+    color: var(--color-white);
+    text-align: left;
+    padding: 3vh 2vw;
+    height: 20vh;
   }
   .linkGithub {
     color: var(--color-yellow);
