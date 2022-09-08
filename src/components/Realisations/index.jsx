@@ -4,6 +4,7 @@ import CardRealisation from 'components/CardRealisation';
 import { useEffect, useState } from 'react';
 
 import Header from 'components/Header';
+import Footer from 'components/Footer';
 import SRealisations from './style';
 
 export default function Realisations() {
@@ -37,6 +38,7 @@ export default function Realisations() {
           );
         })}
       </SRealisations>
+      <Footer />
     </>
   );
 }

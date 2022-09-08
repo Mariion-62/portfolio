@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Header from '../Header';
+import Footer from '../Footer';
 import bgPurple from './bgPurple.png';
 import bgPink from './bgPink.png';
 import SCardHomepage from './style';
@@ -32,6 +33,7 @@ export default function Homepage() {
           </div>
         </section>
       </SCardHomepage>
+      <Footer />
     </>
   );
 }
