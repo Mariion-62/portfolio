@@ -29,15 +29,15 @@ const SCardRealisation = styled.div`
     padding: 0.5vh 1vw 0 0.3vw;
   }
   .imgProject {
-    object-fit: contain;
-    width: 40vw;
-    height: 30vh;
-  }
-  .contentProject {
-    color: var(--color-white);
-    text-align: justify;
-    padding: 0vh 2vw;
-    height: 30vh;
+    object-fit: cover;
+    width: 28vw;
+    height: 28vh;
+    border-radius: 20px;
+    &:hover {
+      width: 29vw;
+      height: 29vh;
+      transition: 1s;
+    }
   }
   .problematiqueProject {
     color: var(--color-white);
@@ -45,12 +45,30 @@ const SCardRealisation = styled.div`
     padding: 3vh 2vw;
     height: 20vh;
   }
+  .contentProject {
+    color: var(--color-white);
+    text-align: justify;
+    padding: 0vh 2vw;
+    height: 30vh;
+  }
+  .gitHub {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+    vertical-align: baseline;
+  }
   .linkGithub {
+    display: flex;
+    text-decoration: none;
     color: var(--color-yellow);
     cursor: pointer;
     &:hover {
-      color: var(--color-violet);
+      color: var(--color-pink);
     }
+  }
+  .textGithub {
+    margin: auto;
+    padding-right: 1vw;
   }
 `;
 

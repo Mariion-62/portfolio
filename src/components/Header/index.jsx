@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import SHeader from './style';
 import Logo from './logo.png';
-import iconMenuBurger from './burgerMenu.png';
+// import iconMenuBurger from './burgerMenu.png';
 import logoGitHub from './logoGitHub.png';
 import logoLinkedIn from './logoLinkedIn.png';
 
@@ -26,11 +26,11 @@ export default function Header() {
               <img src={logoGitHub} alt="Github" className="logoGitHub" />
             </a>
           </div>
-          <img
+          {/* <img
             className="iconMenuBurger"
             src={iconMenuBurger}
             alt="Menu Burger"
-          />
+          /> */}
         </div>
       </div>
     </SHeader>

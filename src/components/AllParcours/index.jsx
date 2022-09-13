@@ -1,7 +1,8 @@
 import { toast } from 'react-toastify';
 import axios from 'axios';
-import CardParcours from 'components/CardParcours';
 import { useEffect, useState } from 'react';
+import CardParcours from 'components/CardParcours';
+import BtnUp from 'components/BtnUp';
 
 import { SAllParcours, STitleParcours } from './style';
 
@@ -43,6 +44,7 @@ export default function AllParcours() {
             );
           })}
         </div>
+        <BtnUp />
       </SAllParcours>
     </>
   );

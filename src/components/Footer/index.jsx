@@ -6,17 +6,17 @@ export default function footer() {
   return (
     <SFooter>
       <div className="footer">
-        <p>mentions légales</p>
-        <p>Copyright {currentYear} </p>
-        <div className="contact">
-          <a
-            href="mailto:mariongrolleau@neuf.fr"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <IoMailOutline className="logoMail" size={30} />
-          </a>
-        </div>
+        <p className="legalsMentions">mentions légales</p>
+        <p className="copyright">Copyright {currentYear} </p>
+
+        <a
+          className="contact"
+          href="mailto:mariongrolleau@neuf.fr"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <IoMailOutline className="logoMail" size={30} />
+        </a>
       </div>
     </SFooter>
   );
