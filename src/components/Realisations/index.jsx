@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 
 import Header from 'components/Header';
 import Footer from 'components/Footer';
+import BtnUp from 'components/BtnUp';
 import SRealisations from './style';
 
 export default function Realisations() {
@@ -39,6 +40,7 @@ export default function Realisations() {
         })}
       </SRealisations>
       <Footer />
+      <BtnUp />
     </>
   );
 }

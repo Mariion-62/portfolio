@@ -11,6 +11,7 @@ export default function CardRealisation({
   group,
   time,
   problematique,
+  linkGithubBack,
 }) {
   return (
     <>
@@ -43,14 +44,26 @@ export default function CardRealisation({
             Problématique : {problematique}
           </p>
           <p className="contentProject">{content}</p>
-          <a
-            className="linkGithub"
-            href={linkGithub}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <IoLogoGithub size={50} />
-          </a>
+          <div className="gitHub">
+            <a
+              className="linkGithub"
+              href={linkGithub}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="textGithub">Front-End</p>
+              <IoLogoGithub size={50} />
+            </a>
+            <a
+              className="linkGithub"
+              href={linkGithubBack}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="textGithub">Back-End</p>
+              <IoLogoGithub size={50} />
+            </a>
+          </div>
         </div>
       </SCardRealisation>
     </>
@@ -66,4 +79,5 @@ CardRealisation.propTypes = {
   group: PropTypes.string.isRequired,
   time: PropTypes.string.isRequired,
   problematique: PropTypes.string.isRequired,
+  linkGithubBack: PropTypes.string.isRequired,
 };
