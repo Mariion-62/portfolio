@@ -55,7 +55,9 @@ const SCardRealisation = styled.div`
     display: flex;
     justify-content: space-evenly;
     width: 30vw;
-    vertical-align: baseline;
+  }
+  .ioLogoGithub {
+    font-size: 50px;
   }
   .linkGithub {
     display: flex;
@@ -69,6 +71,42 @@ const SCardRealisation = styled.div`
   .textGithub {
     margin: auto;
     padding-right: 1vw;
+  }
+
+  // MODE MOBILE
+
+  @media only screen and (max-width: 767px) {
+    .allCard {
+      display: flex;
+      width: 90vw;
+      justify-content: left;
+      margin: 2vh 2vw 2vh 4.5vw;
+    }
+    .imgProject {
+      width: 70vw;
+    }
+    .gitHub {
+      width: 80vw;
+      margin-top: 2vh;
+    }
+    .ioLogoGithub {
+      font-size: 30px;
+    }
+  }
+  // MODE TABLET
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .allCard {
+      display: flex;
+      width: 90vw;
+    }
+    .imgProject {
+      width: 70vw;
+    }
+    .gitHub {
+      width: 80vw;
+      margin-top: 2vh;
+    }
   }
 `;
 

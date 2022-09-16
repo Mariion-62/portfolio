@@ -1,13 +1,6 @@
 import styled from 'styled-components';
 
 const SDescription = styled.div`
-  .bgDescription {
-    width: 20vw;
-    position: absolute;
-    transform: rotate(90deg);
-    margin-top: -10vh;
-  }
-
   .contentDescription {
     justify-content: center;
     width: 55vw;
@@ -16,6 +9,23 @@ const SDescription = styled.div`
     text-align: center;
     font-size: 1.2em;
     line-height: 1.3em;
+  }
+  // MODE MOBILE
+
+  @media only screen and (max-width: 767px) {
+    .contentDescription {
+      font-size: 1em;
+      width: 85vw;
+    }
+  }
+
+  // MODE TABLET
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .contentDescription {
+      font-size: 1.1em;
+      width: 75vw;
+    }
   }
 `;
 

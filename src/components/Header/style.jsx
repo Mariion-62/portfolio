@@ -29,6 +29,38 @@ const SHeader = styled.div`
   .iconMenuBurger {
     width: 10vw;
   }
+
+  // MODE MOBILE
+
+  @media only screen and (max-width: 767px) {
+    .logoHeader {
+      width: 20vw;
+    }
+    .iconSocials {
+      width: 20vw;
+    }
+    .logoLinkedIn,
+    .logoGitHub {
+      width: 7vw;
+      padding-top: 1.5vh;
+    }
+  }
+
+  // MODE TABLET
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .logoHeader {
+      width: 12vw;
+    }
+    .iconSocials {
+      width: 20vw;
+    }
+    .logoLinkedIn,
+    .logoGitHub {
+      width: 6vw;
+      padding-top: 1.5vh;
+    }
+  }
 `;
 
 export default SHeader;
