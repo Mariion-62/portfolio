@@ -52,7 +52,7 @@ export default function CardRealisation({
               rel="noreferrer"
             >
               <p className="textGithub">Front-End</p>
-              <IoLogoGithub size={50} />
+              <IoLogoGithub className="ioLogoGithub" />
             </a>
             <a
               className="linkGithub"
@@ -61,7 +61,7 @@ export default function CardRealisation({
               rel="noreferrer"
             >
               <p className="textGithub">Back-End</p>
-              <IoLogoGithub size={50} />
+              <IoLogoGithub className="ioLogoGithub" />
             </a>
           </div>
         </div>

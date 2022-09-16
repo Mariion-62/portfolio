@@ -16,6 +16,42 @@ const SCardBenevole = styled.div`
     margin: auto;
     line-height: 3vh;
   }
+
+  // MODE MOBILE
+
+  @media only screen and (max-width: 767px) {
+    .cardBenevole {
+      width: 95vw;
+      margin: 5vh 1vw;
+    }
+    .imgBenevole {
+      width: 15vw;
+      height: 10vh;
+      padding-top: 3vh;
+    }
+    .allListBenevole {
+      width: 60vw;
+      font-size: 0.8em;
+      padding-bottom: 1vh;
+    }
+  }
+  // MODE TABLET
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .cardBenevole {
+      margin: 5vh 1vw;
+      width: 95vw;
+    }
+    .imgBenevole {
+      width: 10vw;
+      height: 12vh;
+      padding-top: 5vh;
+    }
+    .allListBenevole {
+      font-size: 0.9em;
+      width: 70vw;
+    }
+  }
 `;
 const SButtonMore = styled.div`
   .buttonMore {
@@ -49,6 +85,25 @@ const SButtonMore = styled.div`
   }
   .linkMore {
     text-decoration: none;
+  }
+  // MODE MOBILE
+
+  @media only screen and (max-width: 767px) {
+    .buttonMore {
+      width: 12vw;
+      height: 1.5vh;
+      padding-top: 1vh;
+      margin: 10vh 0 0 0;
+      font-size: 0.6em;
+    }
+  }
+  // MODE TABLET
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .buttonMore {
+      width: 15vw;
+      margin: 8vh 0 0 0;
+    }
   }
 `;
 
