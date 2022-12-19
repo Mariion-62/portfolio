@@ -2,21 +2,23 @@ import styled from 'styled-components';
 
 const SCardParcours = styled.div`
   .cardParcours {
-    width: 21vw;
+    width: 40vw;
+    margin: 20px;
     font-size: 1em;
     text-align: center;
     border-radius: 20px;
     box-shadow: -1px -3px 8px 4px var(--color-violet);
     &:hover {
       box-shadow: -1px -3px 8px 4px var(--color-pink);
-
+      .dateParcours,
+      .job,
+      .enterprise {
+        opacity: 0;
+      }
       .xpParcours,
       .pictureParcours {
         opacity: 1;
         transition: 1s;
-      }
-      .dot {
-        color: var(--color-pink);
       }
     }
   }
@@ -24,16 +26,10 @@ const SCardParcours = styled.div`
     text-align: center;
     padding: 1vh;
     font-size: 1.5em;
-    width: 20vw;
+    width: 40vw;
     height: 5vh;
     font-weight: bolder;
     margin: auto;
-  }
-  .dot {
-    align-items: center;
-    width: 20vw;
-    padding: 3vh 0;
-    cursor: pointer;
   }
   .job {
     padding: 1vh;
@@ -46,7 +42,8 @@ const SCardParcours = styled.div`
   }
   .xpParcours {
     padding: 1vh;
-    text-align: left;
+    margin-top: -20vh;
+    text-align: center;
     opacity: 0;
     height: 30vh;
     .listParcours {
@@ -71,22 +68,21 @@ const SCardParcours = styled.div`
       border-radius: 20px;
       box-shadow: -1px -3px 8px 4px var(--color-violet);
       margin: 1vh 3.5vw 5vh 3.5vw;
+      border: 1px solid red;
     }
 
     .dateParcours {
       width: 60vw;
       margin: auto;
     }
-    .dot {
-      display: none;
-    }
     .job {
       width: 60vw;
       margin: auto;
     }
-    .enterprise {
-    }
+
     .xpParcours {
+      margin-top: 1vh;
+      text-align: left;
       padding: 0;
       opacity: 1;
     }
@@ -110,9 +106,7 @@ const SCardParcours = styled.div`
     .dateParcours {
       height: 6vh;
     }
-    .dot {
-      width: 48vw;
-    }
+
     .pictureParcours {
       width: 20vw;
       height: 8vh;

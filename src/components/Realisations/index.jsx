@@ -31,6 +31,7 @@ export default function Realisations() {
               picture={cardRealisation.picture}
               content={cardRealisation.content}
               linkGithub={cardRealisation.linkGithub}
+              linkGithubBack={cardRealisation.linkGithubBack}
               linkSite={cardRealisation.linkSite}
               group={cardRealisation.group}
               time={cardRealisation.time}

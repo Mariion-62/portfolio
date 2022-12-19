@@ -21,16 +21,18 @@ const SCardBenevole = styled.div`
 
   @media only screen and (max-width: 767px) {
     .cardBenevole {
+      flex-direction: column;
+      align-item: center;
       width: 95vw;
       margin: 5vh 1vw;
     }
     .imgBenevole {
-      width: 15vw;
+      width: 20vw;
       height: 10vh;
-      padding-top: 3vh;
+      padding: 3vh 40vw;
     }
     .allListBenevole {
-      width: 60vw;
+      width: 95vw;
       font-size: 0.8em;
       padding-bottom: 1vh;
     }
@@ -90,11 +92,11 @@ const SButtonMore = styled.div`
 
   @media only screen and (max-width: 767px) {
     .buttonMore {
-      width: 12vw;
+      width: 50vw;
       height: 1.5vh;
-      padding-top: 1vh;
-      margin: 10vh 0 0 0;
-      font-size: 0.6em;
+      padding: 1vh;
+      margin: 2vh 5vw 0 20vw;
+      font-size: 1em;
     }
   }
   // MODE TABLET

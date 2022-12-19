@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import { IoEllipseOutline } from 'react-icons/io5';
 import SCardParcours from './style';
 
 export default function CardParcours({
@@ -21,7 +20,6 @@ export default function CardParcours({
           <h3 className="dateParcours">
             {dateBegin} - {dateEnd}
           </h3>
-          <IoEllipseOutline className="dot" size={50} />
           <p className="job">{job}</p>
           <p className="enterprise">{enterprise}</p>
           <ul className="xpParcours">

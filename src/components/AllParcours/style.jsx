@@ -4,6 +4,7 @@ const SAllParcours = styled.div`
   .parcours {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
   .cardParcours {
     display: flex;

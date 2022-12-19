@@ -2,6 +2,7 @@ import SDescription from './style';
 
 export default function Description() {
   const currentYear = new Date().getFullYear() - 1990;
+
   return (
     <>
       <SDescription>
