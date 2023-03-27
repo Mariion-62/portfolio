@@ -45,24 +45,28 @@ export default function CardRealisation({
           </p>
           <p className="contentProject">{content}</p>
           <div className="gitHub">
-            <a
-              className="linkGithub"
-              href={linkGithub}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p className="textGithub">Front-End</p>
-              <IoLogoGithub className="ioLogoGithub" />
-            </a>
-            <a
-              className="linkGithub"
-              href={linkGithubBack}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p className="textGithub">Back-End</p>
-              <IoLogoGithub className="ioLogoGithub" />
-            </a>
+            {linkGithub && (
+              <a
+                className="linkGithub"
+                href={linkGithub}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="textGithub">Front-End</p>
+                <IoLogoGithub className="ioLogoGithub" />
+              </a>
+            )}
+            {linkGithubBack && (
+              <a
+                className="linkGithub"
+                href={linkGithubBack}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="textGithub">Back-End</p>
+                <IoLogoGithub className="ioLogoGithub" />
+              </a>
+            )}
           </div>
         </div>
       </SCardRealisation>

@@ -3,12 +3,22 @@ import styled from 'styled-components';
 const SDescription = styled.div`
   .contentDescription {
     justify-content: center;
-    width: 55vw;
-    margin: 5vh auto;
-    padding: 2vh 0 15vh 0;
+    width: 45vw;
+    margin: 8vh auto 0 auto;
+    padding: 8vh 0 15vh 0;
     text-align: center;
     font-size: 1.2em;
     line-height: 1.3em;
+  }
+  .iconeOrdi {
+    margin: -65vh 0 0 20vw;
+    width: 60vw;
+    height: 82vh;
+  }
+
+  .avatar {
+    margin: -55vh 0 0 2.8vw;
+    width: 45vh;
   }
   // MODE MOBILE
 
