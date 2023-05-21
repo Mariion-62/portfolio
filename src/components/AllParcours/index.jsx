@@ -1,22 +1,13 @@
-import { toast } from 'react-toastify';
-import axios from 'axios';
 import { useEffect, useState } from 'react';
-import CardParcours from 'components/CardParcours';
 import BtnUp from 'components/BtnUp';
+import { CardParcours, dataParcours } from 'components/CardParcours';
 
 import { SAllParcours, STitleParcours } from './style';
 
 export default function AllParcours() {
   const [allParcours, setAllParcours] = useState([]);
   useEffect(() => {
-    axios
-      .get(`http://localhost:5050/parcours`)
-      .then(({ data }) => {
-        setAllParcours(data);
-      })
-      .catch(() => {
-        toast('ERROR');
-      });
+    setAllParcours(dataParcours);
   }, []);
   return (
     <>

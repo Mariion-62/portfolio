@@ -1,6 +1,6 @@
-import { toast } from 'react-toastify';
-import axios from 'axios';
-import CardRealisation from 'components/CardRealisation';
+// import { toast } from 'react-toastify';
+// import axios from 'axios';
+import { CardRealisation, dataRealisation } from 'components/CardRealisation';
 import { useEffect, useState } from 'react';
 
 import Header from 'components/Header';
@@ -11,14 +11,7 @@ import SRealisations from './style';
 export default function Realisations() {
   const [cardRealisations, setCardRealisations] = useState([]);
   useEffect(() => {
-    axios
-      .get(`http://localhost:5050/realisations`)
-      .then(({ data }) => {
-        setCardRealisations(data);
-      })
-      .catch(() => {
-        toast('ERROR');
-      });
+    setCardRealisations(dataRealisation);
   }, []);
   return (
     <>

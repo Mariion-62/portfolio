@@ -1,6 +1,4 @@
-import { toast } from 'react-toastify';
-import axios from 'axios';
-import CardBenevole from 'components/CardBenevole';
+import { CardBenevole, dataBenevole } from 'components/CardBenevole';
 import { useEffect, useState } from 'react';
 
 import { SBenevole, STitleBenevole } from './style';
@@ -8,14 +6,7 @@ import { SBenevole, STitleBenevole } from './style';
 export default function Benevoles() {
   const [benevoles, setBenevoles] = useState([]);
   useEffect(() => {
-    axios
-      .get(`http://localhost:5050/benevole`)
-      .then(({ data }) => {
-        setBenevoles(data);
-      })
-      .catch(() => {
-        toast('ERROR');
-      });
+    setBenevoles(dataBenevole);
   }, []);
   return (
     <>

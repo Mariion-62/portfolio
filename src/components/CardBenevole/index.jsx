@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { SCardBenevole, SButtonMore } from './style';
 
-export default function CardBenevole({
+export function CardBenevole({
   picture,
   listOne,
   listTwo,
@@ -43,3 +43,20 @@ CardBenevole.propTypes = {
   listFour: PropTypes.string.isRequired,
   listFive: PropTypes.string.isRequired,
 };
+
+export const dataBenevole = [
+  {
+    picture: './assets/logoTT.png',
+    listOne: 'Joueuse depuis + 20ans',
+    listTwo: 'Membre du bureau du Seclin Ping Pour Prétexte',
+    listThree: 'Coach section Sport Adapté pendant 10 ans',
+    listFour: 'https://www.facebook.com/seclinppp',
+  },
+  {
+    picture: './assets/jeuxdesociete.png',
+    listOne: "Vice-présidente de l'association la Remise Enjouée",
+    listTwo: "Atelier Chantier d'Insertion",
+    listThree: 'Collecte - Trie - Rénove des jouers de seconde main',
+    listFour: 'https://www.laremiseenjouee.org/',
+  },
+];
