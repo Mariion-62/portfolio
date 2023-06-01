@@ -79,9 +79,9 @@ const SCardRealisation = styled.div`
     .allCard {
       display: flex;
       width: 90vw;
+      height: 150vh;
       justify-content: left;
       margin: 2vh 2vw 2vh 4.5vw;
-      border: red 1px solid;
     }
     .imgProject {
       width: 70vw;
