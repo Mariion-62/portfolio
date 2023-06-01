@@ -81,6 +81,7 @@ const SCardRealisation = styled.div`
       width: 90vw;
       justify-content: left;
       margin: 2vh 2vw 2vh 4.5vw;
+      border: red 1px solid;
     }
     .imgProject {
       width: 70vw;

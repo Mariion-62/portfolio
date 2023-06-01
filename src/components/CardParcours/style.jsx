@@ -68,18 +68,22 @@ const SCardParcours = styled.div`
       border-radius: 20px;
       box-shadow: -1px -3px 8px 4px var(--color-violet);
       margin: 1vh 3.5vw 5vh 3.5vw;
-      border: 1px solid red;
     }
 
     .dateParcours {
-      width: 60vw;
+      width: 80vw;
       margin: auto;
     }
     .job {
-      width: 60vw;
+      width: 80vw;
       margin: auto;
+      font-size: 1em;
     }
-
+    .enterprise {
+      padding: 1.5vh;
+      height: 3vh;
+      font-size: 1em;
+    }
     .xpParcours {
       margin-top: 1vh;
       text-align: left;
