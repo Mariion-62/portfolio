@@ -17,7 +17,7 @@ const SDescription = styled.div`
   }
 
   .avatar {
-    margin: -55vh 0 0 2.8vw;
+    margin: -55vh 0 0 4.4vw;
     width: 45vh;
   }
   // MODE MOBILE
@@ -25,7 +25,13 @@ const SDescription = styled.div`
   @media only screen and (max-width: 767px) {
     .contentDescription {
       font-size: 1em;
-      width: 85vw;
+      width: 90vw;
+    }
+    .iconeOrdi {
+      display: none;
+    }
+    .avatar {
+      display: none;
     }
   }
 
