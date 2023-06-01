@@ -139,7 +139,7 @@ export const dataRealisation = [
     title: 'Agence SYB',
     picture: './assets/agenceSyb.png',
     content:
-      "Le thème du hackathon était la musique. Étant vers la période de Noël, nous avons décidé de faire un calendrier de l’avent musical. Les utilisateurs auront la possibilité d’écouter la musique mais également d'avoir les partitions afin de la jouer avec un instrument de musique disponible. D’avoir un temps limité pour réaliser cette app était très stimulant et enrichissant ! J’ai beaucoup aimé ce format !J’ai effectué mon stage au sein de l’Agence Syb pour une durée de 6 mois. une de mes missions a été de créer un site One Page fait en React.JS. \nJ’ai dû faire pas mal de recherches pour réussir à faire des animations plus ou moins complexes. Ce projet m’a plu et m’a appris à être autonome, chercher, fouiller pour trouver des réponses à mes problèmes. J’ai également dû m’adapter et modifier mon code en fonction des retours sur le design.",
+      "J'ai effectué mon stage au sein de l’Agence Syb pour une durée de 6 mois. une de mes missions a été de créer un site One Page fait en React.JS. Avant de commencer j’ai    configuré mon pc, installation de linux, de git, création d’un gitHub etc… J’ai dû faire pas mal de recherches pour réussir à faire des animations plus ou moins complexes. Ce projet m’a plu et m’a appris à être autonome, chercher, fouiller pour trouver des réponses à mes problèmes. J’ai également dû m’adapter et modifier mon code en fonction des retours sur le design.",
     linkGithub: 'https://github.com/Mariion-62/Agence-syb',
     group: '1',
     time: '4 mois',
