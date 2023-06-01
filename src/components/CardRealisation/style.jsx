@@ -79,19 +79,21 @@ const SCardRealisation = styled.div`
     .allCard {
       display: flex;
       width: 90vw;
-      height: 150vh;
       justify-content: left;
-      margin: 2vh 2vw 2vh 4.5vw;
+      margin: 2vh 2vw -10vh 4.5vw;
     }
     .imgProject {
       width: 70vw;
     }
     .gitHub {
       width: 80vw;
-      margin-top: 2vh;
+      margin-top: -10vh;
     }
     .ioLogoGithub {
       font-size: 30px;
+    }
+    .contentProject {
+      display: none;
     }
   }
   // MODE TABLET
