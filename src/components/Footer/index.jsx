@@ -11,6 +11,7 @@ export default function footer() {
 
         <a
           className="contact"
+          aria-label="mail de Marion"
           href="mailto:mariongrolleau@neuf.fr"
           target="_blank"
           rel="noreferrer"

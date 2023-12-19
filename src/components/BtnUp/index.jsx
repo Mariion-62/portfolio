@@ -29,6 +29,7 @@ export default function BtnUp() {
       <SBtnUp>
         <button
           type="button"
+          aria-label="Boutton pour aller en haut de la page"
           className="btnUp"
           onClick={scrollToTop}
           style={{ display: visible ? 'inline' : 'none' }}

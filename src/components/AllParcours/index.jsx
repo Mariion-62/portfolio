@@ -7,7 +7,15 @@ import { SAllParcours, STitleParcours } from './style';
 export default function AllParcours() {
   const [allParcours, setAllParcours] = useState([]);
   useEffect(() => {
-    setAllParcours(dataParcours);
+    const dataParcoursCopy = [...dataParcours];
+
+    dataParcoursCopy.sort((a, b) => {
+      const idA = new Date(a.id);
+      const idB = new Date(b.id);
+      return idB - idA;
+    });
+
+    setAllParcours(dataParcoursCopy);
   }, []);
   return (
     <>

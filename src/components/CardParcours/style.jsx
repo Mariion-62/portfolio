@@ -3,6 +3,8 @@ import styled from 'styled-components';
 const SCardParcours = styled.div`
   .cardParcours {
     width: 40vw;
+    max-height: 18rem;
+    padding: 1.5rem 0;
     margin: 20px;
     font-size: 1em;
     text-align: center;
