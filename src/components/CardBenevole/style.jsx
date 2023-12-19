@@ -93,7 +93,7 @@ const SButtonMore = styled.div`
   @media only screen and (max-width: 767px) {
     .buttonMore {
       width: 50vw;
-      height: 1.5vh;
+      height: 3.5vh;
       padding: 1vh;
       margin: 2vh 5vw 0 20vw;
       font-size: 1em;

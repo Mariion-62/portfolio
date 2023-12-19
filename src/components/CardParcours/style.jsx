@@ -67,6 +67,7 @@ const SCardParcours = styled.div`
   @media only screen and (max-width: 767px) {
     .cardParcours {
       width: 90vw;
+      max-height: 20rem;
       border-radius: 20px;
       box-shadow: -1px -3px 8px 4px var(--color-violet);
       margin: 1vh 3.5vw 5vh 3.5vw;
@@ -87,7 +88,7 @@ const SCardParcours = styled.div`
       font-size: 1em;
     }
     .xpParcours {
-      margin-top: 1vh;
+      margin: 1vh 0;
       text-align: left;
       padding: 0;
       opacity: 1;
@@ -95,6 +96,7 @@ const SCardParcours = styled.div`
     .pictureParcours {
       width: 50vw;
       height: 7vh;
+      padding-top: 5vh;
       opacity: 1;
     }
   }
